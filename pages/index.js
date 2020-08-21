@@ -2,9 +2,7 @@ import Nav from '@/components/nav'
 import Hero from '@/components/hero'
 
 const Home = () => (
-  <div className="portfolio-app">
-    <Nav />
-    <Hero />
+  <>
     <div className="container">
       <section className="section-title">
         <div className="px-2">
@@ -100,7 +98,7 @@ const Home = () => (
       </div>
     </footer>
     {/* FOOTER ENDS */}
-  </div>
+  </>
 )
 
 export default Home

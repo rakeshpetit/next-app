@@ -1,8 +1,19 @@
-import '../styles/index.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/index.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import Nav from '@/components/Nav';
+import Hero from '@/components/Hero';
+
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <div className="portfolio-app">
+      <Nav />
+      {Component.name === 'Home' && <Hero />}
+      <div className="container">
+        <Component {...pageProps} />
+      </div>
+    </div>
+  )
 }
 
-export default MyApp
+export default MyApp;

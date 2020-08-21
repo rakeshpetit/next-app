@@ -1,8 +1,5 @@
-import Nav from '@/components/nav'
-
 const Portfolios = () => (
     <>
-        <Nav />
         <div className="container">
             <section className="section-title">
                 <div className="px-2">

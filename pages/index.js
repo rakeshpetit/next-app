@@ -1,12 +1,11 @@
-import Nav from '../components/nav'
-import Hero from '../components/hero'
+import Nav from '@/components/nav'
+import Hero from '@/components/hero'
 
 const Home = () => (
   <div className="portfolio-app">
     <Nav />
     <Hero />
     <div className="container">
-      {/* HOME PAGE STARTS */}
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -52,15 +51,6 @@ const Home = () => (
         </div>
       </section>
       <a href="" className="btn btn-main bg-blue ttu">See More Posts</a>
-      {/* HOME PAGE ENDS */}
-      {/* FORUM CATEGORIES START */}
-      {/* FORUM CATEGORIES ENDS */}
-      {/* TOPICS PAGE STARTS */}
-      {/* TOPICS PAGE ENDS */}
-      {/* POSTS PAGE STARTS */}
-      {/* POSTS PAGE ENDS */}
-      {/* LOGIN PAGE STARTS */}
-      {/* LOGIN PAGE ENDS */}
     </div>
 
     {/* REPLIER STARTS */}

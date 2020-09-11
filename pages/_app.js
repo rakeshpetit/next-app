@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/index.scss';
 
-import Nav from '@/components/Nav';
+import Nav from '@/components/NavBar';
 import Hero from '@/components/Hero';
 
 const MyApp = ({ Component, pageProps }) => {
